@@ -1,526 +1,0 @@
-TTowerPing
-v7
-r0
-t300997892.538638
-cCheck dependencies
-cCpResource build/Release-iphoneos/TowerPing.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
-cProcessInfoPlistFile /Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app/Info.plist TowerPing-Info.plist
-cCompileXIB /Users/danielray/Dropbox/TowerPing/FlipsideView.xib
-cCompileXIB /Users/danielray/Dropbox/TowerPing/MainView.xib
-cCompileXIB /Users/danielray/Dropbox/TowerPing/MainWindow.xib
-cProcessPCH /var/folders/Bl/BlGun7A0EyGgjqrtbyNzrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TowerPing_Prefix-fgssqsalvoskoggjyqjlrwusjmfp/TowerPing_Prefix.pch.gch TowerPing_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-cProcessPCH /var/folders/Bl/BlGun7A0EyGgjqrtbyNzrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TowerPing_Prefix-eksxewslurlpnlcfspzrbylbjtft/TowerPing_Prefix.pch.gch TowerPing_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv6/main.o /Users/danielray/Dropbox/TowerPing/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv6/TowerPingAppDelegate.o /Users/danielray/Dropbox/TowerPing/Classes/TowerPingAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv6/MainViewController.o /Users/danielray/Dropbox/TowerPing/Classes/MainViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv6/FlipsideViewController.o /Users/danielray/Dropbox/TowerPing/Classes/FlipsideViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv7/main.o /Users/danielray/Dropbox/TowerPing/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv7/TowerPingAppDelegate.o /Users/danielray/Dropbox/TowerPing/Classes/TowerPingAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv7/MainViewController.o /Users/danielray/Dropbox/TowerPing/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv7/FlipsideViewController.o /Users/danielray/Dropbox/TowerPing/Classes/FlipsideViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv6/TowerPing normal armv6
-cLd /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv7/TowerPing normal armv7
-cCreateUniversalBinary /Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app/TowerPing normal "armv6 armv7"
-cGenerateDSYMFile /Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app.dSYM /Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app/TowerPing
-cProcessProductPackaging "/Users/danielray/Library/MobileDevice/Provisioning Profiles/1F98BD29-FEBD-4456-9DAA-621E0AE33991.mobileprovision" /Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app/embedded.mobileprovision
-cTouch /Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app
-cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing.xcent
-cCodeSign /Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app
-cValidate /Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk
-c000000004C05C1B10000000000000110
-t1275445681
-s272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
-c000000004BF4B7F900000000000001A7
-t1274329081
-s423
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
-c000000004BF4B7F900000000000001E5
-t1274329081
-s485
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004BFE06FA000000000034A850
-t1274939130
-s3450960
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
-c000000004C04706200000000000C1E70
-t1275359330
-s794224
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
-c000000004C04705A00000000000001D0
-t1275359322
-s464
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004BFE07D200000000003E1EB0
-t1274939346
-s4071088
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004BFE07B10000000000001466
-t1274939313
-s5222
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C04711400000000000009CD
-t1275359508
-s2509
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C0471FC0000000002D563E0
-t1275359740
-s47539168
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/Availability.h
-c000000004BF4D50E0000000000001A3B
-t1274336526
-s6715
-
-N/Users/danielray/Dropbox/TowerPing/Classes/FlipsideViewController.h
-c000000004C3770DD000000000000022D
-t1278701789
-s557
-i<UIKit/UIKit.h>
-
-N/Users/danielray/Dropbox/TowerPing/Classes/FlipsideViewController.m
-c000000004C3770DD0000000000000452
-t1278701789
-s1106
-i"FlipsideViewController.h"
-
-N/Users/danielray/Dropbox/TowerPing/Classes/MainViewController.h
-c000000004C37766D000000000000032D
-t1278703213
-s813
-i"FlipsideViewController.h"
-i<CoreLocation/CoreLocation.h>
-
-N/Users/danielray/Dropbox/TowerPing/Classes/MainViewController.m
-c000000004C3778100000000000000D05
-t1278703632
-s3333
-i"MainViewController.h"
-i<CoreLocation/CoreLocation.h>
-
-N/Users/danielray/Dropbox/TowerPing/Classes/TowerPingAppDelegate.h
-c000000004C3770DD00000000000001DE
-t1278701789
-s478
-i<UIKit/UIKit.h>
-
-N/Users/danielray/Dropbox/TowerPing/Classes/TowerPingAppDelegate.m
-c000000004C3770DD0000000000000A9D
-t1278701789
-s2717
-i"TowerPingAppDelegate.h"
-i"MainViewController.h"
-
-N/Users/danielray/Dropbox/TowerPing/FlipsideView.xib
-c000000004C3770DD0000000000004C60
-t1278701789
-s19552
-
-N/Users/danielray/Dropbox/TowerPing/MainView.xib
-c000000004C3784FD00000000000070BE
-t1278706941
-s28862
-
-N/Users/danielray/Dropbox/TowerPing/MainWindow.xib
-c000000004C3770DD00000000000050A0
-t1278701789
-s20640
-
-N/Users/danielray/Dropbox/TowerPing/TowerPing_Prefix.pch
-c000000004C3770DD0000000000000144
-t1278701789
-s324
-i<Availability.h>
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app
-t1279305092
-s408
-
-N/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app.dSYM
-t1279305092
-s102
-
-N/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app/FlipsideView.nib
-t1279305090
-s1194
-
-N/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app/Info.plist
-t1279305090
-s773
-
-N/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app/MainView.nib
-t1279305090
-s2574
-
-N/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app/MainWindow.nib
-t1279305090
-s1151
-
-N/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app/PkgInfo
-t1279305090
-s8
-
-N/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app/ResourceRules.plist
-t1279305090
-s485
-
-N/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app/TowerPing
-t1279305092
-s69040
-
-N/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app/embedded.mobileprovision
-t1279305092
-s9763
-
-N/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv6/FlipsideViewController.o
-t1279305091
-s36972
-
-N/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv6/MainViewController.o
-t1279305092
-s54020
-
-N/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv6/TowerPing
-t1279305092
-s26240
-
-N/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv6/TowerPing.LinkFileList
-c000000004C40A5820000000000000208
-t1279305090
-s520
-
-N/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv6/TowerPingAppDelegate.o
-t1279305091
-s46820
-
-N/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv6/main.o
-t1279305091
-s6428
-
-N/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv7/FlipsideViewController.o
-t1279305092
-s36984
-
-N/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv7/MainViewController.o
-t1279305092
-s53944
-
-N/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv7/TowerPing
-t1279305092
-s26240
-
-N/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv7/TowerPing.LinkFileList
-c000000004C40A5820000000000000208
-t1279305090
-s520
-
-N/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv7/TowerPingAppDelegate.o
-t1279305092
-s46828
-
-N/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv7/main.o
-t1279305091
-s6408
-
-N/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing.xcent
-t1279305092
-s424
-
-N/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/com.apple.build-tools.platform.validate
-t2
-s0
-
-N/Users/danielray/Dropbox/TowerPing/main.m
-c000000004C3770DD0000000000000165
-t1278701789
-s357
-i<UIKit/UIKit.h>
-
-N/Users/danielray/Library/MobileDevice/Provisioning Profiles/1F98BD29-FEBD-4456-9DAA-621E0AE33991.mobileprovision
-c000000004C348CE20000000000002623
-t1278512354
-s9763
-
-N/var/folders/Bl/BlGun7A0EyGgjqrtbyNzrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TowerPing_Prefix-eksxewslurlpnlcfspzrbylbjtft/TowerPing_Prefix.pch.gch
-t1279305091
-s10090032
-
-N/var/folders/Bl/BlGun7A0EyGgjqrtbyNzrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TowerPing_Prefix-fgssqsalvoskoggjyqjlrwusjmfp/TowerPing_Prefix.pch.gch
-t1279305091
-s9631280
-
-NTowerPing-Info.plist
-c000000004C40A5D600000000000003DA
-t1279305174
-s986
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies300997890#300997890#0(244"[BWARN]Code Sign warning: code-signing identity 'iPhone Developer' matches multiple identities : 'iPhone Developer: Dan Ray (7WF527LU59)', 'iPhone Developer: Dylan  Ritter (5VZP2BT5BZ)' -- 'iPhone Developer: Dan Ray (7WF527LU59)' will be used.1(22@236"Code Sign warning: code-signing identity 'iPhone Developer' matches multiple identities : 'iPhone Developer: Dan Ray (7WF527LU59)', 'iPhone Developer: Dylan  Ritter (5VZP2BT5BZ)' -- 'iPhone Developer: Dan Ray (7WF527LU59)' will be used.300997890#18446744073709551615#0#0(1@0"0(0#1#0"8630810912#0"0#
-
-CCodeSign /Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app
-s300997892.278051
-e300997892.512655
-r1
-xCodeSign
-x/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app
-lSLF07#2@45"CodeSign build/Release-iphoneos/TowerPing.app300997892#300997892#0(0"0(0#0#71"/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app8617887680#643"    cd /Users/danielray/Dropbox/TowerPing    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Dan Ray (7WF527LU59)" --resource-rules=/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app/ResourceRules.plist --entitlements /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing.xcent /Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app0#
-
-CCompileC build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv6/FlipsideViewController.o /Users/danielray/Dropbox/TowerPing/Classes/FlipsideViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s300997891.720424
-e300997891.869118
-r1
-xCompileC
-xbuild/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv6/FlipsideViewController.o
-x/Users/danielray/Dropbox/TowerPing/Classes/FlipsideViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@75"Compile /Users/danielray/Dropbox/TowerPing/Classes/FlipsideViewController.m300997891#300997891#0(0"0(0#0#67"/Users/danielray/Dropbox/TowerPing/Classes/FlipsideViewController.m8625436416#1823"    cd /Users/danielray/Dropbox/TowerPing    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing-generated-files.hmap -I/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing-own-target-headers.hmap -I/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing-all-target-headers.hmap -iquote /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing-project-headers.hmap -F/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos -I/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/include -I/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/DerivedSources/armv6 -I/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Bl/BlGun7A0EyGgjqrtbyNzrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TowerPing_Prefix-fgssqsalvoskoggjyqjlrwusjmfp/TowerPing_Prefix.pch -c /Users/danielray/Dropbox/TowerPing/Classes/FlipsideViewController.m -o /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv6/FlipsideViewController.o0#
-
-CCompileC build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv6/MainViewController.o /Users/danielray/Dropbox/TowerPing/Classes/MainViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s300997891.719229
-e300997892.116368
-r1
-xCompileC
-xbuild/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv6/MainViewController.o
-x/Users/danielray/Dropbox/TowerPing/Classes/MainViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@71"Compile /Users/danielray/Dropbox/TowerPing/Classes/MainViewController.m300997891#300997892#0(0"0(0#0#63"/Users/danielray/Dropbox/TowerPing/Classes/MainViewController.m8626016768#1815"    cd /Users/danielray/Dropbox/TowerPing    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing-generated-files.hmap -I/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing-own-target-headers.hmap -I/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing-all-target-headers.hmap -iquote /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing-project-headers.hmap -F/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos -I/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/include -I/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/DerivedSources/armv6 -I/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Bl/BlGun7A0EyGgjqrtbyNzrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TowerPing_Prefix-fgssqsalvoskoggjyqjlrwusjmfp/TowerPing_Prefix.pch -c /Users/danielray/Dropbox/TowerPing/Classes/MainViewController.m -o /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv6/MainViewController.o0#
-
-CCompileC build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv6/TowerPingAppDelegate.o /Users/danielray/Dropbox/TowerPing/Classes/TowerPingAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s300997891.718276
-e300997891.844627
-r1
-xCompileC
-xbuild/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv6/TowerPingAppDelegate.o
-x/Users/danielray/Dropbox/TowerPing/Classes/TowerPingAppDelegate.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/danielray/Dropbox/TowerPing/Classes/TowerPingAppDelegate.m300997891#300997891#0(0"0(0#0#65"/Users/danielray/Dropbox/TowerPing/Classes/TowerPingAppDelegate.m8627271552#1819"    cd /Users/danielray/Dropbox/TowerPing    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing-generated-files.hmap -I/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing-own-target-headers.hmap -I/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing-all-target-headers.hmap -iquote /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing-project-headers.hmap -F/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos -I/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/include -I/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/DerivedSources/armv6 -I/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Bl/BlGun7A0EyGgjqrtbyNzrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TowerPing_Prefix-fgssqsalvoskoggjyqjlrwusjmfp/TowerPing_Prefix.pch -c /Users/danielray/Dropbox/TowerPing/Classes/TowerPingAppDelegate.m -o /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv6/TowerPingAppDelegate.o0#
-
-CCompileC build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv6/main.o /Users/danielray/Dropbox/TowerPing/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s300997891.717210
-e300997891.789025
-r1
-xCompileC
-xbuild/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv6/main.o
-x/Users/danielray/Dropbox/TowerPing/main.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@49"Compile /Users/danielray/Dropbox/TowerPing/main.m300997891#300997891#0(0"0(0#0#41"/Users/danielray/Dropbox/TowerPing/main.m8628638560#1779"    cd /Users/danielray/Dropbox/TowerPing    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing-generated-files.hmap -I/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing-own-target-headers.hmap -I/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing-all-target-headers.hmap -iquote /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing-project-headers.hmap -F/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos -I/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/include -I/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/DerivedSources/armv6 -I/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Bl/BlGun7A0EyGgjqrtbyNzrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TowerPing_Prefix-fgssqsalvoskoggjyqjlrwusjmfp/TowerPing_Prefix.pch -c /Users/danielray/Dropbox/TowerPing/main.m -o /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv6/main.o0#
-
-CCompileC build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv7/FlipsideViewController.o /Users/danielray/Dropbox/TowerPing/Classes/FlipsideViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s300997891.917665
-e300997892.077433
-r1
-xCompileC
-xbuild/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv7/FlipsideViewController.o
-x/Users/danielray/Dropbox/TowerPing/Classes/FlipsideViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@75"Compile /Users/danielray/Dropbox/TowerPing/Classes/FlipsideViewController.m300997891#300997892#0(0"0(0#0#67"/Users/danielray/Dropbox/TowerPing/Classes/FlipsideViewController.m8633420352#1823"    cd /Users/danielray/Dropbox/TowerPing    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing-generated-files.hmap -I/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing-own-target-headers.hmap -I/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing-all-target-headers.hmap -iquote /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing-project-headers.hmap -F/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos -I/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/include -I/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/DerivedSources/armv7 -I/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Bl/BlGun7A0EyGgjqrtbyNzrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TowerPing_Prefix-eksxewslurlpnlcfspzrbylbjtft/TowerPing_Prefix.pch -c /Users/danielray/Dropbox/TowerPing/Classes/FlipsideViewController.m -o /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv7/FlipsideViewController.o0#
-
-CCompileC build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv7/MainViewController.o /Users/danielray/Dropbox/TowerPing/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s300997891.869266
-e300997892.188599
-r1
-xCompileC
-xbuild/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv7/MainViewController.o
-x/Users/danielray/Dropbox/TowerPing/Classes/MainViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@71"Compile /Users/danielray/Dropbox/TowerPing/Classes/MainViewController.m300997891#300997892#0(0"0(0#0#63"/Users/danielray/Dropbox/TowerPing/Classes/MainViewController.m8606325568#1815"    cd /Users/danielray/Dropbox/TowerPing    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing-generated-files.hmap -I/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing-own-target-headers.hmap -I/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing-all-target-headers.hmap -iquote /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing-project-headers.hmap -F/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos -I/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/include -I/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/DerivedSources/armv7 -I/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Bl/BlGun7A0EyGgjqrtbyNzrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TowerPing_Prefix-eksxewslurlpnlcfspzrbylbjtft/TowerPing_Prefix.pch -c /Users/danielray/Dropbox/TowerPing/Classes/MainViewController.m -o /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv7/MainViewController.o0#
-
-CCompileC build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv7/TowerPingAppDelegate.o /Users/danielray/Dropbox/TowerPing/Classes/TowerPingAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s300997891.844783
-e300997892.036939
-r1
-xCompileC
-xbuild/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv7/TowerPingAppDelegate.o
-x/Users/danielray/Dropbox/TowerPing/Classes/TowerPingAppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/danielray/Dropbox/TowerPing/Classes/TowerPingAppDelegate.m300997891#300997892#0(0"0(0#0#65"/Users/danielray/Dropbox/TowerPing/Classes/TowerPingAppDelegate.m8615561792#1819"    cd /Users/danielray/Dropbox/TowerPing    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing-generated-files.hmap -I/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing-own-target-headers.hmap -I/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing-all-target-headers.hmap -iquote /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing-project-headers.hmap -F/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos -I/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/include -I/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/DerivedSources/armv7 -I/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Bl/BlGun7A0EyGgjqrtbyNzrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TowerPing_Prefix-eksxewslurlpnlcfspzrbylbjtft/TowerPing_Prefix.pch -c /Users/danielray/Dropbox/TowerPing/Classes/TowerPingAppDelegate.m -o /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv7/TowerPingAppDelegate.o0#
-
-CCompileC build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv7/main.o /Users/danielray/Dropbox/TowerPing/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s300997891.789179
-e300997891.917298
-r1
-xCompileC
-xbuild/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv7/main.o
-x/Users/danielray/Dropbox/TowerPing/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@49"Compile /Users/danielray/Dropbox/TowerPing/main.m300997891#300997891#0(0"0(0#0#41"/Users/danielray/Dropbox/TowerPing/main.m8625089344#1779"    cd /Users/danielray/Dropbox/TowerPing    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing-generated-files.hmap -I/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing-own-target-headers.hmap -I/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing-all-target-headers.hmap -iquote /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing-project-headers.hmap -F/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos -I/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/include -I/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/DerivedSources/armv7 -I/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Bl/BlGun7A0EyGgjqrtbyNzrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TowerPing_Prefix-eksxewslurlpnlcfspzrbylbjtft/TowerPing_Prefix.pch -c /Users/danielray/Dropbox/TowerPing/main.m -o /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv7/main.o0#
-
-CCompileXIB /Users/danielray/Dropbox/TowerPing/FlipsideView.xib
-s300997890.140268
-e300997890.634268
-r1
-xCompileXIB
-x/Users/danielray/Dropbox/TowerPing/FlipsideView.xib
-lSLF07#2@27"CompileXIB FlipsideView.xib300997890#300997890#0(0"0(0#0#51"/Users/danielray/Dropbox/TowerPing/FlipsideView.xib8632868224#538"    cd /Users/danielray/Dropbox/TowerPing    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app/FlipsideView.nib /Users/danielray/Dropbox/TowerPing/FlipsideView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
-
-CCompileXIB /Users/danielray/Dropbox/TowerPing/MainView.xib
-s300997890.141298
-e300997890.804675
-r1
-xCompileXIB
-x/Users/danielray/Dropbox/TowerPing/MainView.xib
-lSLF07#2@23"CompileXIB MainView.xib300997890#300997890#0(0"0(0#0#47"/Users/danielray/Dropbox/TowerPing/MainView.xib8632437824#530"    cd /Users/danielray/Dropbox/TowerPing    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app/MainView.nib /Users/danielray/Dropbox/TowerPing/MainView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
-
-CCompileXIB /Users/danielray/Dropbox/TowerPing/MainWindow.xib
-s300997890.142193
-e300997890.727932
-r1
-xCompileXIB
-x/Users/danielray/Dropbox/TowerPing/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib300997890#300997890#0(0"0(0#0#49"/Users/danielray/Dropbox/TowerPing/MainWindow.xib8617590848#534"    cd /Users/danielray/Dropbox/TowerPing    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app/MainWindow.nib /Users/danielray/Dropbox/TowerPing/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
-
-CCpResource build/Release-iphoneos/TowerPing.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
-s300997890.124771
-e300997890.140152
-r1
-xCpResource
-xbuild/Release-iphoneos/TowerPing.app/ResourceRules.plist
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
-lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist300997890#300997890#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist8603638240#497"    cd /Users/danielray/Dropbox/TowerPing    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist /Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app0#
-
-CCreateUniversalBinary /Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app/TowerPing normal "armv6 armv7"
-s300997892.217780
-e300997892.221422
-r1
-xCreateUniversalBinary
-x/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app/TowerPing
-xnormal
-xarmv6 armv7
-lSLF07#2@89"CreateUniversalBinary build/Release-iphoneos/TowerPing.app/TowerPing normal "armv6 armv7"300997892#300997892#0(0"0(0#0#46"/Users/danielray/Dropbox/TowerPing/armv6 armv78606052864#524"    cd /Users/danielray/Dropbox/TowerPing    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv6/TowerPing /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv7/TowerPing -output /Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app/TowerPing0#
-
-CGenerateDSYMFile /Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app.dSYM /Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app/TowerPing
-s300997892.221547
-e300997892.250375
-r1
-xGenerateDSYMFile
-x/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app.dSYM
-x/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app/TowerPing
-lSLF07#2@105"GenerateDSYMFile build/Release-iphoneos/TowerPing.app.dSYM build/Release-iphoneos/TowerPing.app/TowerPing300997892#300997892#0(0"0(0#0#81"/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app/TowerPing8632416864#360"    cd /Users/danielray/Dropbox/TowerPing    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app/TowerPing -o /Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app.dSYM0#
-
-CLd /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv6/TowerPing normal armv6
-s300997892.116523
-e300997892.165225
-r1
-xLd
-x/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv6/TowerPing
-xnormal
-xarmv6
-lSLF07#2@125"Link /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv6/TowerPing300997892#300997892#0(0"0(0#0#0"8633400800#883"    cd /Users/danielray/Dropbox/TowerPing    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos -F/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos -filelist /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv6/TowerPing.LinkFileList -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -o /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv6/TowerPing0#
-
-CLd /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv7/TowerPing normal armv7
-s300997892.188704
-e300997892.217642
-r1
-xLd
-x/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv7/TowerPing
-xnormal
-xarmv7
-lSLF07#2@125"Link /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv7/TowerPing300997892#300997892#0(0"0(0#0#0"8626470848#883"    cd /Users/danielray/Dropbox/TowerPing    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos -F/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos -filelist /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv7/TowerPing.LinkFileList -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -o /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/Objects-normal/armv7/TowerPing0#
-
-CProcessInfoPlistFile /Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app/Info.plist TowerPing-Info.plist
-s300997890.125912
-e300997890.131542
-r1
-xProcessInfoPlistFile
-x/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app/Info.plist
-xTowerPing-Info.plist
-lSLF07#2@28"Process TowerPing-Info.plist300997890#300997890#0(0"0(0#0#55"/Users/danielray/Dropbox/TowerPing/TowerPing-Info.plist8634194592#560"    cd /Users/danielray/Dropbox/TowerPing    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility TowerPing-Info.plist -genpkginfo /Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app/ResourceRules.plist -o /Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app/Info.plist0#
-
-CProcessPCH /var/folders/Bl/BlGun7A0EyGgjqrtbyNzrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TowerPing_Prefix-eksxewslurlpnlcfspzrbylbjtft/TowerPing_Prefix.pch.gch TowerPing_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-s300997890.805773
-e300997891.636156
-r1
-xProcessPCH
-x/var/folders/Bl/BlGun7A0EyGgjqrtbyNzrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TowerPing_Prefix-eksxewslurlpnlcfspzrbylbjtft/TowerPing_Prefix.pch.gch
-xTowerPing_Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@31"Precompile TowerPing_Prefix.pch300997890#300997891#0(0"0(0#0#55"/Users/danielray/Dropbox/TowerPing/TowerPing_Prefix.pch8632747392#1677"    cd /Users/danielray/Dropbox/TowerPing    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing-generated-files.hmap -I/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing-own-target-headers.hmap -I/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing-all-target-headers.hmap -iquote /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing-project-headers.hmap -F/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos -I/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/include -I/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/DerivedSources/armv7 -I/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/danielray/Dropbox/TowerPing/TowerPing_Prefix.pch -o /var/folders/Bl/BlGun7A0EyGgjqrtbyNzrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TowerPing_Prefix-eksxewslurlpnlcfspzrbylbjtft/TowerPing_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/Bl/BlGun7A0EyGgjqrtbyNzrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TowerPing_Prefix-fgssqsalvoskoggjyqjlrwusjmfp/TowerPing_Prefix.pch.gch TowerPing_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-s300997890.804831
-e300997891.717109
-r1
-xProcessPCH
-x/var/folders/Bl/BlGun7A0EyGgjqrtbyNzrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TowerPing_Prefix-fgssqsalvoskoggjyqjlrwusjmfp/TowerPing_Prefix.pch.gch
-xTowerPing_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@31"Precompile TowerPing_Prefix.pch300997890#300997891#0(0"0(0#0#55"/Users/danielray/Dropbox/TowerPing/TowerPing_Prefix.pch8633146496#1677"    cd /Users/danielray/Dropbox/TowerPing    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing-generated-files.hmap -I/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing-own-target-headers.hmap -I/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing-all-target-headers.hmap -iquote /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing-project-headers.hmap -F/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos -I/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/include -I/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/DerivedSources/armv6 -I/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/danielray/Dropbox/TowerPing/TowerPing_Prefix.pch -o /var/folders/Bl/BlGun7A0EyGgjqrtbyNzrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TowerPing_Prefix-fgssqsalvoskoggjyqjlrwusjmfp/TowerPing_Prefix.pch.gch0#
-
-CProcessProductPackaging "/Users/danielray/Library/MobileDevice/Provisioning Profiles/1F98BD29-FEBD-4456-9DAA-621E0AE33991.mobileprovision" /Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app/embedded.mobileprovision
-s300997892.250514
-e300997892.252490
-r1
-xProcessProductPackaging
-x/Users/danielray/Library/MobileDevice/Provisioning Profiles/1F98BD29-FEBD-4456-9DAA-621E0AE33991.mobileprovision
-x/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app/embedded.mobileprovision
-lSLF07#2@200"ProcessProductPackaging "/Users/danielray/Library/MobileDevice/Provisioning Profiles/1F98BD29-FEBD-4456-9DAA-621E0AE33991.mobileprovision" build/Release-iphoneos/TowerPing.app/embedded.mobileprovision300997892#300997892#0(0"0(0#0#96"/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app/embedded.mobileprovision8627121696#423"    cd /Users/danielray/Dropbox/TowerPing    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/danielray/Library/MobileDevice/Provisioning Profiles/1F98BD29-FEBD-4456-9DAA-621E0AE33991.mobileprovision" -o /Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app/embedded.mobileprovision0#
-
-CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing.xcent
-s300997892.257213
-e300997892.277939
-r1
-xProcessProductPackaging
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
-x/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing.xcent
-lSLF07#2@183"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing.xcent300997892#300997892#0(0"0(0#0#105"/Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing.xcent8619416448#432"    cd /Users/danielray/Dropbox/TowerPing    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/danielray/Dropbox/TowerPing/build/TowerPing.build/Release-iphoneos/TowerPing.build/TowerPing.xcent0#
-
-CTouch /Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app
-s300997892.252592
-e300997892.257067
-r1
-xTouch
-x/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app
-lSLF07#2@77"Touch /Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app300997892#300997892#0(0"0(0#0#0"8624972480#260"    cd /Users/danielray/Dropbox/TowerPing    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app0#
-
-CValidate /Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app
-s300997892.512825
-e300997892.538563
-r1
-xValidate
-x/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app
-lSLF07#2@45"Validate build/Release-iphoneos/TowerPing.app300997892#300997892#0(0"0(0#0#71"/Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app8632619232#369"    cd /Users/danielray/Dropbox/TowerPing    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/danielray/Dropbox/TowerPing/build/Release-iphoneos/TowerPing.app0#
-
