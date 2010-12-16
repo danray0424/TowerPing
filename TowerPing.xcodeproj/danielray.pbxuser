@@ -1,0 +1,159 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* TowerPing */ = {
+		activeExec = 0;
+		executables = (
+			395983DE11E7A85D00B92B38 /* TowerPing */,
+		);
+	};
+	289233A80DB2D0DB0083E9F9 /* MainViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {962, 502}}";
+			sepNavSelRange = "{369, 0}";
+			sepNavVisRange = "{0, 813}";
+			sepNavWindowFrame = "{{269, 195}, {1021, 630}}";
+		};
+	};
+	289233A90DB2D0DB0083E9F9 /* MainViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1029, 1586}}";
+			sepNavSelRange = "{1744, 0}";
+			sepNavVisRange = "{1061, 1151}";
+			sepNavWindowFrame = "{{238, 292}, {1088, 563}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 395983DE11E7A85D00B92B38 /* TowerPing */;
+		activeSDKPreference = iphoneos4.0;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* TowerPing */;
+		codeSenseManager = 395983EA11E7A86A00B92B38 /* Code sense */;
+		executables = (
+			395983DE11E7A85D00B92B38 /* TowerPing */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 300997861;
+			PBXWorkspaceStateSaveDate = 300997861;
+		};
+		perUserProjectItems = {
+			3959843711E7AFD000B92B38 /* PBXTextBookmark */ = 3959843711E7AFD000B92B38 /* PBXTextBookmark */;
+			3959846B11E7BD0100B92B38 /* PBXTextBookmark */ = 3959846B11E7BD0100B92B38 /* PBXTextBookmark */;
+			399DFCBB11F0DCF100C60A68 /* PBXBookmark */ = 399DFCBB11F0DCF100C60A68 /* PBXBookmark */;
+			399DFCCB11F0DD2900C60A68 /* PBXBookmark */ = 399DFCCB11F0DD2900C60A68 /* PBXBookmark */;
+			399DFCCE11F0DD5800C60A68 /* PlistBookmark */ = 399DFCCE11F0DD5800C60A68 /* PlistBookmark */;
+			399DFCCF11F0DD5800C60A68 /* PBXTextBookmark */ = 399DFCCF11F0DD5800C60A68 /* PBXTextBookmark */;
+			399DFCD011F0DD5800C60A68 /* PBXTextBookmark */ = 399DFCD011F0DD5800C60A68 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 395983E911E7A86A00B92B38 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	395983DE11E7A85D00B92B38 /* TowerPing */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = TowerPing;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	395983E911E7A86A00B92B38 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	395983EA11E7A86A00B92B38 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	3959843711E7AFD000B92B38 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233A80DB2D0DB0083E9F9 /* MainViewController.h */;
+		name = "MainViewController.h: 27";
+		rLen = 0;
+		rLoc = 735;
+		rType = 0;
+		vrLen = 808;
+		vrLoc = 0;
+	};
+	3959846B11E7BD0100B92B38 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */;
+		name = "MainViewController.m: 60";
+		rLen = 0;
+		rLoc = 1744;
+		rType = 0;
+		vrLen = 1151;
+		vrLoc = 1061;
+	};
+	399DFCBB11F0DCF100C60A68 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 289233A80DB2D0DB0083E9F9 /* MainViewController.h */;
+	};
+	399DFCCB11F0DD2900C60A68 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 8D1107310486CEB800E47090 /* TowerPing-Info.plist */;
+	};
+	399DFCCE11F0DD5800C60A68 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* TowerPing-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/danielray/Dropbox/TowerPing/TowerPing-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	399DFCCF11F0DD5800C60A68 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233A80DB2D0DB0083E9F9 /* MainViewController.h */;
+		name = "MainViewController.h: 14";
+		rLen = 0;
+		rLoc = 369;
+		rType = 0;
+		vrLen = 813;
+		vrLoc = 0;
+	};
+	399DFCD011F0DD5800C60A68 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */;
+		name = "MainViewController.m: 60";
+		rLen = 0;
+		rLoc = 1744;
+		rType = 0;
+		vrLen = 1151;
+		vrLoc = 1061;
+	};
+	8D1107310486CEB800E47090 /* TowerPing-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{38, 289}, {1088, 563}}";
+		};
+	};
+}
