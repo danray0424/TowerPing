@@ -1,0 +1,5 @@
+A simple app that uses iOS background location services to track the position at "significant change".
+
+When the phone does cell tower handoff, it gets a current location and feeds it to the app, which will record 
+it and (ultimately) map it. This will result in a tracking of where you've been when the cell tower handoff has
+happened, which might be interesting in terms of diagnosing poor cell service issues.
